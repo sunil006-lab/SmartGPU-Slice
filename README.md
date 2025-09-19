@@ -56,7 +56,7 @@ git clone https://github.com/your-org/smartgpu-slice.git
 cd smartgpu-slice
 pip install -r requirements.txt
 
-**## Usage**
+## Usage
 1. 	Deploy DRA driver and GPU slice plugin
 2. 	Run  to create slice claims
 3. 	Launch  to simulate AI tasks
