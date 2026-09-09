@@ -13,6 +13,7 @@ SmartGPU-Slice is a Python-based proof-of-concept that showcases how Kubernetes 
 - Modular Python architecture for extensibility
 
 ##  Architecture
+```text
 +----------------------------+
 |  Source Cloud (Azure/GCP) |
 +----------------------------+
@@ -32,8 +33,7 @@ SmartGPU-Slice is a Python-based proof-of-concept that showcases how Kubernetes 
 +----------------------------------------+
 | GPU Slice Allocation + Monitoring      |
 +----------------------------------------+
-
-
+```
 ##  Modules
 | Module                  | Description                                      |
 |-----------------------  |--------------------------------------------------|
