@@ -1,4 +1,4 @@
-# SmartGPU-Slice
+# SmartGPU-Slice (Memory segmentation)
 AI-Driven GPU Slicing with Kubernetes DRA
 # SmartGPU-Slice: AI-Driven GPU Slicing with Kubernetes DRA
 
