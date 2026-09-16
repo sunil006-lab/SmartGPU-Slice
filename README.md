@@ -80,34 +80,39 @@ SmartGPU-Slice is a Python-based proof-of-concept that showcases how Kubernetes 
 | `metrics_collector.py`  | Collects Prometheus metrics for slice usage      |
 | `slice_visualizer.py`   | Streamlit dashboard for real-time visualization  |
 
-## Core Python dependencies
+#Core Python dependencies
+```text
 kubernetes==26.1.0           # For interacting with Kubernetes API
 requests==2.31.0             # For HTTP calls and API integration
 PyYAML==6.0.1                # For parsing Kubernetes manifests
-
-# AI Workload Simulation
+```
+AI Workload Simulation
+```text
 torch==2.1.0                 # PyTorch for model inference
 torchvision==0.16.0          # Image models and transforms
 tensorflow==2.14.0           # Optional: TensorFlow support
-
-# Metrics and Monitoring
+```
+Metrics and Monitoring
+```text
 prometheus-client==0.19.0    # For exposing custom metrics
 psutil==5.9.6                # For system resource tracking
-
-# Visualization (Optional)
+```
+Visualization (Optional)
+```text
 streamlit==1.29.0            # For real-time dashboard
 matplotlib==3.8.0            # For plotting slice usage
-
-# Scheduler Intelligence
+```
+Scheduler Intelligence
+```text
 scikit-learn==1.3.2          # For SLA prediction and workload classification
 numpy==1.26.0                # Core numerical operations
 pandas==2.1.1                # Data handling and SLA logs
-
-# Logging and Utilities
+```
+Logging and Utilities
+```text
 loguru==0.7.2                # Elegant logging
 tqdm==4.66.1                 # Progress bars for workload simulation
-
-
+```
 ##  Prerequisites
 - Kubernetes 1.27+ with DRA enabled
 - NVIDIA GPU with MIG or MPS support
